@@ -9,9 +9,6 @@ a, .navbar-brand, .navbar-light .navbar-nav .nav-link:hover {
     color: #007BFF;  /* Bootstrap's default blue */
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-color: #007BFF;
-}
 
 /* iPhone toggle styles */
 .theme-switch-wrapper {
