@@ -66,6 +66,22 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
+/* Paper-like Container */
+.container {
+    background-color: white; /* White background for the "paper" */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 5px; /* Rounded corners */
+    position: relative;
+}
+/* Container Styles for Dark Mode */
+body.dark-mode .container {
+    background-color: #333; /* Dark background for paper */
+    color: #eee; /* Light text for contrast */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Softer shadow */
+}
+
 
 h2 {
     border-bottom: 2px solid #007BFF;
